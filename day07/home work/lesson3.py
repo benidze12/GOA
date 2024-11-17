@@ -8,8 +8,8 @@ num="ჩემი და"
 
 print(num)
 
-
-
+# mission completed
+#RESPECT +
 
 
 
