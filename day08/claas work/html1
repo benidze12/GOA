@@ -1,27 +1,25 @@
-<html>
-      <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>hello world</title>
+</head>
+<body>
+      
+      <h1>hello</h1>
+      <h2>hello</h2>
+     
+      
+     <h3>hello</h3>
+     <h4>hello</h4>
+     <h5>hello</h5>
+     <h6>hello</h6>
 
-      </head>
+     <pre>hello</pre>
 
-
-
-      <body>
-
-         <h1>hello</h1>
-         <h2>hello</h2>
-        
-         
-        <h3>hello</h3>
-        <h4>hello</h4>
-        <h5>hello</h5>
-        <h6>hello</h6>
-
-        <pre>hello</pre>
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ0UkFaDIfFK55nsQ0M_8bWrWpDN3W39Y4kQ&s"
-
-
-      </body>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ0UkFaDIfFK55nsQ0M_8bWrWpDN3W39Y">
 
 
+</body>
 </html>
