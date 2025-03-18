@@ -1,0 +1,35 @@
+#p1{
+    color:aliceblue;
+    background:red;
+    front-size: 20px;
+    text-align: center;
+}
+
+.p2{
+    color:black;
+    background:blue;
+    front-size: 30px;
+    text-align: left;
+}
+
+
+#p3{
+    color:red;
+    background:blue;
+    front-size: 10px;
+    text-align: right;
+}
+
+.p4{ 
+    color: aqua;
+    background: black;
+    front-size: 40px;
+    text-align: center;
+}
+
+#p5{
+    color: blueviolet;
+    background: chocolate;
+    front-size:10px;
+    text-align: left;
+}
