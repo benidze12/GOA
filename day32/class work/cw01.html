@@ -1,0 +1,30 @@
+<!--1)შექმენით დივი, რომელსაც მიანიჭებთ width 800px ზომას,
+ შემდგომ როცა ეკრანი მივა იმ ზომამდე სადაც დივი იწყება(ანუ 800px), მაშინ div ს ქონდეს 100% width-->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <div class="responsive-div">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facilis illum porro possimus a, voluptates fugiat neque 
+        quibusdam quae saepe quis consectetur labore et consequatur est aperiam expedita excepturi. Cupiditate.</p>
+      </div>
+      <style>.responsive-div {
+        width: 800px;
+        background-color: lightblue;
+        margin: 20px auto;
+        text-align: center;
+      }
+
+      @media (max-width: 800px) {
+        .responsive-div {
+          width: 100%;
+        }
+      }
+      </style>
+ </body>
+ </html>

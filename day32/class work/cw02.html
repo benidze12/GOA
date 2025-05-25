@@ -1,0 +1,40 @@
+<!--2)საიტზე დაამატეთ 2 ფოტო, ყველსაც ქონდეს 300x300 ზომები და როცა ეკრანის ზომა გახდება 500px ფოტოების width ები გახდეს 50-50%-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://www.google.com/imgres?q=mercedes&imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod%2Fimages%2F2023-mercedes-amg-c63-s-e-performance-109-65d79697e865a.jpg%3Fcrop%3D0.651xw%3A0.549xh%3B0.0897xw%2C0.326xh%26resize%3D2048%3A*&imgrefurl=https%3A%2F%2Fwww.caranddriver.com%2Fmercedes-amg%2Fc63&docid=CfJPYU3XfY53yM&tbnid=BpnUyyQk-cIOtM&vet=12ahUKEwi6ofam2a2NAxUh8gIHHSJrFZoQM3oECGYQAA..i&w=1464&h=824&hcb=2&ved=2ahUKEwi6ofam2a2NAxUh8gIHHSJrFZoQM3oECGYQAA" alt="mercedes">
+        <img src="https://www.google.com/imgres?q=bmw&imgurl=https%3A%2F%2Fwww.bmw-georgia.com%2Fcontent%2Fdam%2Fbmw%2Fcommon%2Fall-models%2Fm-series%2Fseries-overview%2Fbmw-m-series-seo-overview-ms-04.jpg&imgrefurl=https%3A%2F%2Fwww.bmw-georgia.com%2Fen%2Fall-models%2Fm-series.html&docid=8-Qp0iEZyocwqM&tbnid=yC0MDV_sVtzMEM&vet=12ahUKEwii_fTA2a2NAxWwA9sEHWVAG8oQM3oECB0QAA..i&w=890&h=501&hcb=2&ved=2ahUKEwii_fTA2a2NAxWwA9sEHWVAG8oQM3oECB0QAA" alt="bmw">
+      </div>
+<style>
+    .image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+.image-container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .image-container img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+</style>      
+</body>
+</html>

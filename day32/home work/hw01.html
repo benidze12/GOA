@@ -1,0 +1,27 @@
+<!--1)შექმენით დივი, რომელსაც მიანიჭებთ 500x500 ზომებს, როცა ეკრანის ზომა გახდება 600px ამ დივის backgroudn color გახდეს მწვანე და width 90%-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Example</title>
+  <style>
+    
+    .responsive-div {
+      width: 500px;
+      height: 500px;
+      background-color: gray;
+    }
+
+    @media (max-width: 600px) {
+      .responsive-div {
+        width: 90%;
+        background-color: green;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="responsive-div"></div>
+</body>
+</html>
